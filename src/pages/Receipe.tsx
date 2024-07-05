@@ -1,0 +1,245 @@
+import { Play, Printer, Upload } from 'lucide-react';
+import { BsCheckCircleFill, BsCircle } from 'react-icons/bs';
+import { ForkKnife, Timer } from '../assets/home';
+import { Ads, DummyMenu5, DummyMenu7, DummyMenu8 } from '../assets/menu';
+import { DummyProfile, DummyReceipe } from '../assets/receipe';
+
+const Receipe = () => {
+	return (
+		<section className="px-20 py-10">
+			<div className="flex items-center justify-between">
+				<div>
+					<p className="font-semibold text-[64px] tracking-[-4px] leading-tight mt-8">
+						Health Japanese Fried Rice
+					</p>
+					<div className="mt-12 flex items-center divide-x">
+						<div className="flex items-center gap-4 pr-12">
+							<img
+								src={DummyProfile}
+								className="w-[50px] aspect-square rounded-full object-cover"
+							/>
+							<div>
+								<p className="font-bold">John Smith</p>
+								<p className="font-medium text-sm text-black text-opacity-60">15 July 2023</p>
+							</div>
+						</div>
+						<div className="flex items-center gap-4 px-12">
+							<img src={Timer} />
+							<div>
+								<p className="font-medium text-xs">PREP TIME</p>
+								<p className="font-medium text-sm text-black text-opacity-60">15 Minutes</p>
+							</div>
+						</div>
+						<div className="flex items-center gap-4 px-12">
+							<img src={Timer} />
+							<div>
+								<p className="font-medium text-xs">COOK TIME</p>
+								<p className="font-medium text-sm text-black text-opacity-60">15 Minutes</p>
+							</div>
+						</div>
+						<div className="flex items-center gap-4 px-12">
+							<img src={ForkKnife} />
+							<p className="font-medium text-xs">Chicken</p>
+						</div>
+					</div>
+				</div>
+				<div className="flex items-center gap-8">
+					<div>
+						<div className="bg-[#E7FAFE] w-20 aspect-square rounded-full grid place-content-center">
+							<Printer />
+						</div>
+						<p className="mt-4 text-center tracking-widest font-medium text-xs">PRINT</p>
+					</div>
+					<div>
+						<div className="bg-[#E7FAFE] w-20 aspect-square rounded-full grid place-content-center">
+							<Upload />
+						</div>
+						<p className="mt-4 text-center tracking-widest font-medium text-xs">SHARE</p>
+					</div>
+				</div>
+			</div>
+
+			<div className="mt-14">
+				<div className="grid grid-cols-3 gap-10">
+					<div className="col-span-2 rounded-[30px] overflow-hidden relative">
+						<img src={DummyReceipe} alt="" />
+						<div className="absolute inset-0 bg-transparent grid place-content-center">
+							<div className="bg-[#FFF] bg-opacity-80 w-28 aspect-square rounded-full grid place-content-center">
+								<Play fill="#181945" size={32} />
+							</div>
+						</div>
+					</div>
+					<div className="bg-[#E7FAFE] rounded-[30px] p-8 flex flex-col justify-between">
+						<div>
+							<p className="font-semibold text-2xl">Nutrition Information</p>
+							<div className="mt-2">
+								<div className="flex justify-between items-center py-4 border-b border-black border-opacity-10">
+									<span className="font-medium text-lg text-black text-opacity-60">Calories</span>
+									<span className="font-medium text-lg text-black">219.9 kcal</span>
+								</div>
+								<div className="flex justify-between items-center py-4 border-b border-black border-opacity-10">
+									<span className="font-medium text-lg text-black text-opacity-60">Total Fat</span>
+									<span className="font-medium text-lg text-black">10.7 g</span>
+								</div>
+								<div className="flex justify-between items-center py-4 border-b border-black border-opacity-10">
+									<span className="font-medium text-lg text-black text-opacity-60">Protein</span>
+									<span className="font-medium text-lg text-black">7.9 g</span>
+								</div>
+								<div className="flex justify-between items-center py-4 border-b border-black border-opacity-10">
+									<span className="font-medium text-lg text-black text-opacity-60">
+										Carbohydrate
+									</span>
+									<span className="font-medium text-lg text-black">22.3 g</span>
+								</div>
+								<div className="flex justify-between items-center py-4 border-b border-black border-opacity-10">
+									<span className="font-medium text-lg text-black text-opacity-60">
+										Cholesterol
+									</span>
+									<span className="font-medium text-lg text-black">37.4 mg</span>
+								</div>
+							</div>
+						</div>
+						<div>
+							<p className="text-center text-black text-opacity-60">
+								adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{' '}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div className="my-20">
+				<p className="text-black text-opacity-60">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+					ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+					sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+					est laborum.
+				</p>
+			</div>
+
+			<div className="grid grid-cols-3 gap-10">
+				<div className="col-span-2">
+					<p className="font-semibold text-4xl tracking-negative-4">Ingredients</p>
+					<div className="mt-12">
+						<p className="font-semibold text-2xl tracking-negative-4">For main dish</p>
+						<div>
+							<div className="py-8 border-b flex items-center gap-6">
+								<BsCheckCircleFill size={24} />
+								<p className="text-black text-opacity-60 line-through">
+									Lorem ipsum dolor sit amet
+								</p>
+							</div>
+							<div className="py-8 border-b flex items-center gap-6">
+								<BsCircle size={24} color="#DBE2E5" />
+								<p className="text-black">Lorem ipsum dolor sit amet</p>
+							</div>
+							<div className="py-8 border-b flex items-center gap-6">
+								<BsCircle size={24} color="#DBE2E5" />
+								<p className="text-black">Lorem ipsum dolor sit amet</p>
+							</div>
+							<div className="py-8 border-b flex items-center gap-6">
+								<BsCircle size={24} color="#DBE2E5" />
+								<p className="text-black">Lorem ipsum dolor sit amet</p>
+							</div>
+							<div className="py-8 border-b flex items-center gap-6">
+								<BsCircle size={24} color="#DBE2E5" />
+								<p className="text-black">Lorem ipsum dolor sit amet</p>
+							</div>
+						</div>
+					</div>
+					<div className="mt-12">
+						<p className="font-semibold text-2xl tracking-negative-4">For the sauce</p>
+						<div>
+							<div className="py-8 border-b flex items-center gap-6">
+								<BsCircle size={24} color="#DBE2E5" />
+								<p className="text-black">Lorem ipsum dolor sit amet</p>
+							</div>
+							<div className="py-8 border-b flex items-center gap-6">
+								<BsCircle size={24} color="#DBE2E5" />
+								<p className="text-black">Lorem ipsum dolor sit amet</p>
+							</div>
+							<div className="py-8 border-b flex items-center gap-6">
+								<BsCircle size={24} color="#DBE2E5" />
+								<p className="text-black">Lorem ipsum dolor sit amet</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<p className="font-semibold text-4xl tracking-negative-4">Other Recipe</p>
+
+					<div className="mt-2">
+						<div className="mt-6 flex items-center gap-6">
+							<img src={DummyMenu5} className="w-[180px] rounded-[20px]" />
+							<div>
+								<p className="font-semibold text-xl text-black tracking-negative-4">
+									Chicken Meatball with Creamy Chees...
+								</p>
+								<p className="mt-4 font-medium text-sm text-black text-opacity-60 tracking-negative-2">
+									By Andreas Paula
+								</p>
+							</div>
+						</div>
+						<div className="mt-6 flex items-center gap-6">
+							<img src={DummyMenu8} className="w-[180px] rounded-[20px]" />
+							<div>
+								<p className="font-semibold text-xl text-black tracking-negative-4">
+									The Creamiest Creamy Chicken an...
+								</p>
+								<p className="mt-4 font-medium text-sm text-black text-opacity-60 tracking-negative-2">
+									By Andreas Paula
+								</p>
+							</div>
+						</div>
+						<div className="mt-6 flex items-center gap-6">
+							<img src={DummyMenu7} className="w-[180px] rounded-[20px]" />
+							<div>
+								<p className="font-semibold text-xl text-black tracking-negative-4">
+									The Best Easy One Pot Chicken and Rice
+								</p>
+								<p className="mt-4 font-medium text-sm text-black text-opacity-60 tracking-negative-2">
+									By Andreas Paula
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div className="mt-20">
+						<img src={Ads} alt="" />
+					</div>
+				</div>
+			</div>
+
+			<div className="mt-14">
+				<div className="grid grid-cols-3 gap-10">
+					<div className="col-span-2">
+						<p className="font-semibold text-4xl tracking-negative-4">Directions</p>
+						<div className="mt-8">
+							<div className="flex items-start gap-6 flex-shrink-0">
+								<div className="w-6 aspect-square">
+									<BsCircle size={24} color="#DBE2E5" />
+								</div>
+								<div>
+									<p className="font-semibold tracking-negative-2 text-2xl leading-none">
+										<span className="mr-2">1.</span>Lorem ipsum dolor sit amet
+									</p>
+									<p className="text-black text-opacity-60 tracking-negative-2 mt-6">
+										Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+										quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+										porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+										velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+										magnam aliquam quaerat voluptatem.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	);
+};
+
+export default Receipe;

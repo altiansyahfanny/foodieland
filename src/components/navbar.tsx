@@ -1,4 +1,5 @@
 import { RiFacebookFill, RiInstagramLine, RiTwitterFill } from 'react-icons/ri';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	return (
@@ -6,19 +7,19 @@ const Navbar = () => {
 			<h1 className="font-lobster text-2xl">Foodieland.</h1>
 			<ul className="flex items-center gap-14 font-medium">
 				<li>
-					<a href="/">Home</a>
+					<Link to="/">Home</Link>
 				</li>
 				<li>
-					<a href="/recipe">Recipes</a>
+					<Link to="/recipe">Recipes</Link>
 				</li>
 				<li>
-					<a href="/">Blog</a>
+					<Link to="/blogs">Blog</Link>
 				</li>
 				<li>
-					<a href="/">Contact</a>
+					<Link to="/contact">Contact</Link>
 				</li>
 				<li>
-					<a href="/">About us</a>
+					<Link to="/">About us</Link>
 				</li>
 			</ul>
 			<div className="flex items-center gap-7 text-xl">

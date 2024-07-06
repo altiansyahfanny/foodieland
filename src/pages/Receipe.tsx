@@ -1,8 +1,19 @@
 import { Play, Printer, Upload } from 'lucide-react';
 import { BsCheckCircleFill, BsCircle } from 'react-icons/bs';
+import { BgSearch } from '../assets';
 import { ForkKnife, Timer } from '../assets/home';
-import { Ads, DummyMenu5, DummyMenu7, DummyMenu8 } from '../assets/menu';
-import { DummyProfile, DummyReceipe } from '../assets/receipe';
+import {
+	Ads,
+	DummyMenu10,
+	DummyMenu11,
+	DummyMenu12,
+	DummyMenu5,
+	DummyMenu7,
+	DummyMenu8,
+	DummyMenu9,
+	Heart,
+} from '../assets/menu';
+import { Direction, DummyProfile, DummyReceipe } from '../assets/receipe';
 
 const Receipe = () => {
 	return (
@@ -217,7 +228,7 @@ const Receipe = () => {
 					<div className="col-span-2">
 						<p className="font-semibold text-4xl tracking-negative-4">Directions</p>
 						<div className="mt-8">
-							<div className="flex items-start gap-6 flex-shrink-0">
+							<div className="flex items-start gap-6">
 								<div className="w-6 aspect-square">
 									<BsCircle size={24} color="#DBE2E5" />
 								</div>
@@ -232,7 +243,164 @@ const Receipe = () => {
 										velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
 										magnam aliquam quaerat voluptatem.
 									</p>
+									<div className="my-12">
+										<img src={Direction} alt="" />
+									</div>
+									<p className="text-black text-opacity-60 tracking-negative-2 mt-6">
+										Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+										quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+										porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+										velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+										magnam aliquam quaerat voluptatem.
+									</p>
 								</div>
+							</div>
+							<div className="my-12 h-[1px] bg-black bg-opacity-10" />
+							<div className="flex items-start gap-6">
+								<div className="w-6 aspect-square">
+									<BsCircle size={24} color="#DBE2E5" />
+								</div>
+								<div>
+									<p className="font-semibold tracking-negative-2 text-2xl leading-none">
+										<span className="mr-2">2.</span>Lorem ipsum dolor sit amet
+									</p>
+									<p className="text-black text-opacity-60 tracking-negative-2 mt-6">
+										Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+										quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+										porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+										velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+										magnam aliquam quaerat voluptatem.
+									</p>
+								</div>
+							</div>
+							<div className="my-12 h-[1px] bg-black bg-opacity-10" />
+							<div className="flex items-start gap-6">
+								<div className="w-6 aspect-square">
+									<BsCircle size={24} color="#DBE2E5" />
+								</div>
+								<div>
+									<p className="font-semibold tracking-negative-2 text-2xl leading-none">
+										<span className="mr-2">3.</span>Lorem ipsum dolor sit amet
+									</p>
+									<p className="text-black text-opacity-60 tracking-negative-2 mt-6">
+										Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+										quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+										porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+										velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+										magnam aliquam quaerat voluptatem.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div className="mt-40">
+				<div className="relative">
+					<img src={BgSearch} alt="" />
+					<div className="absolute inset-0 bg-transparent">
+						<div className="flex items-center justify-center h-full">
+							<div className="max-w-3xl">
+								<h2 className="font-semibold text-5xl text-center">Deliciousness to your inbox</h2>
+								<div>
+									<p className="text-opacity-60 text-black max-w-xl text-center mt-4 mx-auto">
+										Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
+										incididunt ut labore et dolore magna aliqut enim ad minim
+									</p>
+								</div>
+
+								<div className="mt-8">
+									<div className="max-w-lg mx-auto relative">
+										<input
+											type="text"
+											placeholder="Your email address..."
+											className="w-full px-5 py-4 rounded-3xl focus:outline-none h-20"
+										></input>
+										<button className="bg-black px-12 py-5 absolute right-2.5 top-1/2 -translate-y-1/2 text-white font-semibold text-sm rounded-2xl">
+											Subscribe
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div className="mt-40">
+				<div className="">
+					<p className="font-semibold text-5xl text-center">You may like these recipe too</p>
+				</div>
+
+				<div className="mt-20 grid grid-cols-4 gap-10">
+					<div className="rounded-2xl overflow-hidden">
+						<div className="h-[200px] relative bg-red-200">
+							<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
+							<img src={DummyMenu9} className="object-fill h-[200px]" />
+						</div>
+						<p className="font-semibold text-lg mt-4">
+							Mixed Tropical Fruit Salad with Superfood Boosts
+						</p>
+						<div className="flex items-center gap-6 mt-6">
+							<div className="flex items-center gap-2.5">
+								<img src={Timer} />
+								<span className="font-semibold text-sm">30 Minutes</span>
+							</div>
+							<div className="flex items-center gap-2.5">
+								<img src={ForkKnife} />
+								<span className="font-semibold text-sm">Healthy</span>
+							</div>
+						</div>
+					</div>
+					<div className="rounded-2xl overflow-hidden">
+						<div className="h-[200px] relative bg-red-200">
+							<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
+							<img src={DummyMenu10} className="object-fill h-[200px]" />
+						</div>
+						<p className="font-semibold text-lg mt-4">Big and Juicy Wagyu Beef Cheeseburger</p>
+						<div className="flex items-center gap-6 mt-6">
+							<div className="flex items-center gap-2.5">
+								<img src={Timer} />
+								<span className="font-semibold text-sm">30 Minutes</span>
+							</div>
+							<div className="flex items-center gap-2.5">
+								<img src={ForkKnife} />
+								<span className="font-semibold text-sm">Western</span>
+							</div>
+						</div>
+					</div>
+					<div className="rounded-2xl overflow-hidden">
+						<div className="h-[200px] relative bg-red-200">
+							<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
+							<img src={DummyMenu11} className="object-fill h-[200px]" />
+						</div>
+						<p className="font-semibold text-lg mt-4">Healthy Japanese Fried Rice with Asparagus</p>
+						<div className="flex items-center gap-6 mt-6">
+							<div className="flex items-center gap-2.5">
+								<img src={Timer} />
+								<span className="font-semibold text-sm">30 Minutes</span>
+							</div>
+							<div className="flex items-center gap-2.5">
+								<img src={ForkKnife} />
+								<span className="font-semibold text-sm">Healthy</span>
+							</div>
+						</div>
+					</div>
+					<div className="rounded-2xl overflow-hidden">
+						<div className="h-[200px] relative bg-red-200">
+							<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
+							<img src={DummyMenu12} className="object-fill h-[200px]" />
+						</div>
+						<p className="font-semibold text-lg mt-4">Cauliflower Walnut Vegetarian Taco Meat</p>
+						<div className="flex items-center gap-6 mt-6">
+							<div className="flex items-center gap-2.5">
+								<img src={Timer} />
+								<span className="font-semibold text-sm">30 Minutes</span>
+							</div>
+							<div className="flex items-center gap-2.5">
+								<img src={ForkKnife} />
+								<span className="font-semibold text-sm">Eastern</span>
 							</div>
 						</div>
 					</div>

@@ -1,6 +1,7 @@
-import { RiFacebookFill, RiTwitterFill, RiInstagramLine } from 'react-icons/ri';
-import { ForkKnife, Badge, HeroImage2, Recipes, Timer } from '../assets/home';
-import { Breakfast, Meat, Vegan, Dessert, Chocolate, Lunch } from '../assets/category';
+import { BsInstagram } from 'react-icons/bs';
+import { BgSearch, Chef, Post, Post1, Post2, Post3 } from '../assets';
+import { Breakfast, Chocolate, Dessert, Lunch, Meat, Vegan } from '../assets/category';
+import { Badge, ForkKnife, HeroImage2, Recipes, Timer } from '../assets/home';
 import {
 	Ads,
 	DummyMenu,
@@ -21,8 +22,6 @@ import {
 	DummyMenu9,
 	Heart,
 } from '../assets/menu';
-import { BgSearch, Chef, Post, Post1, Post2, Post3 } from '../assets';
-import { BsInstagram } from 'react-icons/bs';
 
 export default function Home() {
 	return (
@@ -52,7 +51,7 @@ export default function Home() {
 							</button>
 						</div>
 					</div>
-					<div className="bg-red-200">
+					<div className="">
 						<img src={HeroImage2} className="object-cover h-full" />
 					</div>
 					<div className="absolute inset-x-0 flex justify-center top-8">
@@ -490,7 +489,7 @@ export default function Home() {
 								<div>
 									<p className="text-opacity-60 text-black max-w-xl text-center mt-4 mx-auto">
 										Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
-										incididunt ut labore et dolore magna aliqut enim ad minim{' '}
+										incididunt ut labore et dolore magna aliqut enim ad minim
 									</p>
 								</div>
 
@@ -511,43 +510,6 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-
-			<footer className="mt-20 py-20 px-20">
-				<div className="flex justify-between">
-					<div>
-						<h1 className="font-lobster text-2xl">Foodieland.</h1>
-						<p className="text-black text-opacity-60 mt-4">
-							Lorem ipsum dolor sit amet, consectetuipisicing elit
-						</p>
-					</div>
-					<div className="flex justify-end">
-						<ul className="flex items-center gap-14 font-medium">
-							<li>Home</li>
-							<li>Recipes</li>
-							<li>Blog</li>
-							<li>Contact</li>
-							<li>About us</li>
-						</ul>
-					</div>
-				</div>
-				<hr className="my-12" />
-				<div className="relative flex justify-center">
-					<p className="text-black text-opacity-60">
-						&copy; 2024 Flowbase. Powered by <span className="text-rose-500">Webflow</span>
-					</p>
-					<div className="flex items-center gap-7 text-xl absolute right-0">
-						<a href="#">
-							<RiFacebookFill />
-						</a>
-						<a href="#">
-							<RiTwitterFill />
-						</a>
-						<a href="#">
-							<RiInstagramLine />
-						</a>
-					</div>
-				</div>
-			</footer>
 		</div>
 	);
 }

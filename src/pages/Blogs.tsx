@@ -48,7 +48,7 @@ const Blogs = () => {
 					<div className="col-span-2 flex flex-col gap-y-8">
 						<Reveal>
 							<Link to={'/blogs/1'}>
-								<div className="rounded-[20px] overflow-hidden flex items-center gap-10">
+								<div className="rounded-[20px] overflow-hidden flex items-center gap-10 hover:scale-105 transition-transform">
 									<img src={DummyBlog1} alt="" />
 									<div>
 										<p className="tracking-negative-4 font-semibold text-2xl">
@@ -56,7 +56,7 @@ const Blogs = () => {
 										</p>
 										<p className="text-black text-opacity-60 mt-4">
 											Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
-											incididunt ut labore et dolore magna aliqut enim{' '}
+											incididunt ut labore et dolore magna aliqut enimd
 										</p>
 										<div className="mt-8">
 											<div className="flex items-center divide-x">
@@ -81,7 +81,7 @@ const Blogs = () => {
 						</Reveal>
 						<Reveal>
 							<Link to={'/blogs/1'}>
-								<div className="rounded-[20px] overflow-hidden flex items-center gap-10">
+								<div className="rounded-[20px] overflow-hidden flex items-center gap-10 hover:scale-105 transition-transform">
 									<img src={DummyBlog2} alt="" />
 									<div>
 										<p className="tracking-negative-4 font-semibold text-2xl">
@@ -89,7 +89,7 @@ const Blogs = () => {
 										</p>
 										<p className="text-black text-opacity-60 mt-4">
 											Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
-											incididunt ut labore et dolore magna aliqut enim{' '}
+											incididunt ut labore et dolore magna aliqut enimd
 										</p>
 										<div className="mt-8">
 											<div className="flex items-center divide-x">
@@ -114,7 +114,7 @@ const Blogs = () => {
 						</Reveal>
 						<Reveal>
 							<Link to={'/blogs/1'}>
-								<div className="rounded-[20px] overflow-hidden flex items-center gap-10">
+								<div className="rounded-[20px] overflow-hidden flex items-center gap-10 hover:scale-105 transition-transform">
 									<img src={DummyBlog3} alt="" />
 									<div>
 										<p className="tracking-negative-4 font-semibold text-2xl">
@@ -122,7 +122,7 @@ const Blogs = () => {
 										</p>
 										<p className="text-black text-opacity-60 mt-4">
 											Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
-											incididunt ut labore et dolore magna aliqut enim{' '}
+											incididunt ut labore et dolore magna aliqut enimd
 										</p>
 										<div className="mt-8">
 											<div className="flex items-center divide-x">
@@ -147,7 +147,7 @@ const Blogs = () => {
 						</Reveal>
 						<Reveal>
 							<Link to={'/blogs/1'}>
-								<div className="rounded-[20px] overflow-hidden flex items-center gap-10">
+								<div className="rounded-[20px] overflow-hidden flex items-center gap-10 hover:scale-105 transition-transform">
 									<img src={DummyBlog4} alt="" />
 									<div>
 										<p className="tracking-negative-4 font-semibold text-2xl">
@@ -155,7 +155,7 @@ const Blogs = () => {
 										</p>
 										<p className="text-black text-opacity-60 mt-4">
 											Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
-											incididunt ut labore et dolore magna aliqut enim{' '}
+											incididunt ut labore et dolore magna aliqut enimd
 										</p>
 										<div className="mt-8">
 											<div className="flex items-center divide-x">
@@ -180,7 +180,7 @@ const Blogs = () => {
 						</Reveal>
 						<Reveal>
 							<Link to={'/blogs/1'}>
-								<div className="rounded-[20px] overflow-hidden flex items-center gap-10">
+								<div className="rounded-[20px] overflow-hidden flex items-center gap-10 hover:scale-105 transition-transform">
 									<img src={DummyBlog5} alt="" />
 									<div>
 										<p className="tracking-negative-4 font-semibold text-2xl">
@@ -188,7 +188,7 @@ const Blogs = () => {
 										</p>
 										<p className="text-black text-opacity-60 mt-4">
 											Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
-											incididunt ut labore et dolore magna aliqut enim{' '}
+											incididunt ut labore et dolore magna aliqut enimd
 										</p>
 										<div className="mt-8">
 											<div className="flex items-center divide-x">
@@ -213,7 +213,7 @@ const Blogs = () => {
 						</Reveal>
 						<Reveal>
 							<Link to={'/blogs/1'}>
-								<div className="rounded-[20px] overflow-hidden flex items-center gap-10">
+								<div className="rounded-[20px] overflow-hidden flex items-center gap-10 hover:scale-105 transition-transform">
 									<img src={DummyBlog6} alt="" />
 									<div>
 										<p className="tracking-negative-4 font-semibold text-2xl">
@@ -221,7 +221,7 @@ const Blogs = () => {
 										</p>
 										<p className="text-black text-opacity-60 mt-4">
 											Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
-											incididunt ut labore et dolore magna aliqut enim{' '}
+											incididunt ut labore et dolore magna aliqut enimd
 										</p>
 										<div className="mt-8">
 											<div className="flex items-center divide-x">
@@ -251,7 +251,7 @@ const Blogs = () => {
 						</Reveal>
 						<div className="mt-2">
 							<Reveal>
-								<div className="mt-6 flex items-center gap-6">
+								<div className="mt-6 flex items-center gap-6 hover:scale-105 transition-transform">
 									<img src={DummyMenu5} className="w-[180px] rounded-[20px]" />
 									<div>
 										<p className="font-semibold text-xl text-black tracking-negative-4 line-clamp-3">
@@ -264,7 +264,7 @@ const Blogs = () => {
 								</div>
 							</Reveal>
 							<Reveal>
-								<div className="mt-6 flex items-center gap-6">
+								<div className="mt-6 flex items-center gap-6 hover:scale-105 transition-transform">
 									<img src={DummyMenu8} className="w-[180px] rounded-[20px]" />
 									<div>
 										<p className="font-semibold text-xl text-black tracking-negative-4 line-clamp-3">
@@ -277,7 +277,7 @@ const Blogs = () => {
 								</div>
 							</Reveal>
 							<Reveal>
-								<div className="mt-6 flex items-center gap-6">
+								<div className="mt-6 flex items-center gap-6 hover:scale-105 transition-transform">
 									<img src={DummyMenu7} className="w-[180px] rounded-[20px]" />
 									<div>
 										<p className="font-semibold text-xl text-black tracking-negative-4 line-clamp-3">
@@ -304,22 +304,22 @@ const Blogs = () => {
 							<div className="border rounded-2xl grid place-content-center w-16 aspect-square bg-black border-black">
 								<p className="font-bold text-lg text-white">1</p>
 							</div>
-							<div className="border rounded-2xl grid place-content-center w-16 aspect-square bg-white">
+							<div className="border rounded-2xl grid place-content-center w-16 aspect-square bg-white hover:bg-gray-100 cursor-pointer transition-all">
 								<p className="font-bold text-lg text-black">2</p>
 							</div>
-							<div className="border rounded-2xl grid place-content-center w-16 aspect-square bg-white">
+							<div className="border rounded-2xl grid place-content-center w-16 aspect-square bg-white hover:bg-gray-100 cursor-pointer transition-all">
 								<p className="font-bold text-lg text-black">3</p>
 							</div>
-							<div className="border rounded-2xl grid place-content-center w-16 aspect-square bg-white">
+							<div className="border rounded-2xl grid place-content-center w-16 aspect-square bg-white hover:bg-gray-100 cursor-pointer transition-all">
 								<p className="font-bold text-lg text-black">4</p>
 							</div>
-							<div className="border rounded-2xl grid place-content-center w-16 aspect-square bg-white">
+							<div className="border rounded-2xl grid place-content-center w-16 aspect-square bg-white hover:bg-gray-100 cursor-pointer transition-all">
 								<p className="font-bold text-lg text-black">5</p>
 							</div>
-							<div className="border rounded-2xl grid place-content-center w-16 aspect-square bg-white">
+							<div className="border rounded-2xl grid place-content-center w-16 aspect-square bg-white hover:bg-gray-100 cursor-pointer transition-all">
 								<p className="font-bold text-lg text-black">...</p>
 							</div>
-							<div className="border rounded-2xl grid place-content-center w-16 aspect-square bg-white">
+							<div className="border rounded-2xl grid place-content-center w-16 aspect-square bg-white hover:bg-gray-100 cursor-pointer transition-all">
 								<p className="font-bold text-lg text-black">)</p>
 							</div>
 						</div>

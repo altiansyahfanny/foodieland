@@ -193,10 +193,10 @@ const Receipe = () => {
 						<p className="font-semibold text-4xl tracking-negative-4">Other Recipe</p>
 
 						<div className="mt-2">
-							<div className="mt-6 flex items-center gap-6">
+							<div className="mt-6 flex items-center gap-6 hover:scale-105 transition-transform">
 								<img src={DummyMenu5} className="w-[180px] rounded-[20px]" />
 								<div>
-									<p className="font-semibold text-xl text-black tracking-negative-4">
+									<p className="font-semibold text-xl text-black tracking-negative-4 line-clamp-3">
 										Chicken Meatball with Creamy Chees...
 									</p>
 									<p className="mt-4 font-medium text-sm text-black text-opacity-60 tracking-negative-2">
@@ -204,10 +204,10 @@ const Receipe = () => {
 									</p>
 								</div>
 							</div>
-							<div className="mt-6 flex items-center gap-6">
+							<div className="mt-6 flex items-center gap-6 hover:scale-105 transition-transform">
 								<img src={DummyMenu8} className="w-[180px] rounded-[20px]" />
 								<div>
-									<p className="font-semibold text-xl text-black tracking-negative-4">
+									<p className="font-semibold text-xl text-black tracking-negative-4 line-clamp-3">
 										The Creamiest Creamy Chicken an...
 									</p>
 									<p className="mt-4 font-medium text-sm text-black text-opacity-60 tracking-negative-2">
@@ -215,10 +215,10 @@ const Receipe = () => {
 									</p>
 								</div>
 							</div>
-							<div className="mt-6 flex items-center gap-6">
+							<div className="mt-6 flex items-center gap-6 hover:scale-105 transition-transform">
 								<img src={DummyMenu7} className="w-[180px] rounded-[20px]" />
 								<div>
-									<p className="font-semibold text-xl text-black tracking-negative-4">
+									<p className="font-semibold text-xl text-black tracking-negative-4 line-clamp-3">
 										The Best Easy One Pot Chicken and Rice
 									</p>
 									<p className="mt-4 font-medium text-sm text-black text-opacity-60 tracking-negative-2">
@@ -377,8 +377,8 @@ const Receipe = () => {
 
 				<Reveal>
 					<div className="mt-20 grid grid-cols-4 gap-10">
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu9} className="object-fill h-[200px]" />
 							</div>
@@ -396,8 +396,8 @@ const Receipe = () => {
 								</div>
 							</div>
 						</div>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu10} className="object-fill h-[200px]" />
 							</div>
@@ -413,8 +413,8 @@ const Receipe = () => {
 								</div>
 							</div>
 						</div>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu11} className="object-fill h-[200px]" />
 							</div>
@@ -432,8 +432,8 @@ const Receipe = () => {
 								</div>
 							</div>
 						</div>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu12} className="object-fill h-[200px]" />
 							</div>

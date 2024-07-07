@@ -8,19 +8,19 @@ const Navbar = () => {
 				<h1 className="font-lobster text-2xl">Foodieland.</h1>
 			</Link>
 			<ul className="flex items-center gap-14 font-medium">
-				<li>
+				<li className="">
 					<Link to="/">Home</Link>
 				</li>
-				<li>
+				<li className="">
 					<Link to="/recipe">Recipes</Link>
 				</li>
-				<li>
+				<li className="">
 					<Link to="/blogs">Blog</Link>
 				</li>
-				<li>
+				<li className="">
 					<Link to="/contact">Contact</Link>
 				</li>
-				<li>
+				<li className="">
 					<Link to="/">About us</Link>
 				</li>
 			</ul>

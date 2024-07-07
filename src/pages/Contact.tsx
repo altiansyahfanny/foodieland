@@ -161,8 +161,8 @@ const Contact = () => {
 
 				<div className="mt-20 grid grid-cols-4 gap-10">
 					<Reveal>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu9} className="object-fill h-[200px]" />
 							</div>
@@ -182,8 +182,8 @@ const Contact = () => {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu10} className="object-fill h-[200px]" />
 							</div>
@@ -201,8 +201,8 @@ const Contact = () => {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu11} className="object-fill h-[200px]" />
 							</div>
@@ -222,8 +222,8 @@ const Contact = () => {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu12} className="object-fill h-[200px]" />
 							</div>

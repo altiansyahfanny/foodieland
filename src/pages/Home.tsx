@@ -78,7 +78,7 @@ export default function Home() {
 				<Reveal>
 					<div className="mt-36">
 						<div className="flex items-center gap-10">
-							<div className="relative w-[180px] h-[152px] rounded-[30px] bg-gradient-to-t from-[#7082461a] to-[#70824600]">
+							<div className="relative w-[180px] h-[152px] rounded-[30px] bg-gradient-to-t from-[#7082461a] to-[#70824600] hover:scale-110 transition-transform">
 								<div className="absolute xl:-right-4 xxl:right-0 -top-14 inset-x-0 flex justify-end">
 									<img src={Breakfast} />
 								</div>
@@ -86,7 +86,7 @@ export default function Home() {
 									<p>Breakfast</p>
 								</div>
 							</div>
-							<div className="relative w-[180px] h-[152px] rounded-[30px] bg-gradient-to-t from-[#6CC63F1a] to-[#6CC63F00]">
+							<div className="relative w-[180px] h-[152px] rounded-[30px] bg-gradient-to-t from-[#6CC63F1a] to-[#6CC63F00] hover:scale-110 transition-transform">
 								<div className="absolute  xl:-right-4 xxl:right-0 -top-14 inset-x-0 flex justify-end">
 									<img src={Vegan} />
 								</div>
@@ -94,7 +94,7 @@ export default function Home() {
 									<p>Vegan</p>
 								</div>
 							</div>
-							<div className="relative w-[180px] h-[152px] rounded-[30px] bg-gradient-to-t from-[#CC261B1a] to-[#CC261B00]">
+							<div className="relative w-[180px] h-[152px] rounded-[30px] bg-gradient-to-t from-[#CC261B1a] to-[#CC261B00] hover:scale-110 transition-transform">
 								<div className="absolute  xl:-right-4 xxl:right-0 -top-14 inset-x-0 flex justify-end">
 									<img src={Meat} />
 								</div>
@@ -102,7 +102,7 @@ export default function Home() {
 									<p>Meat</p>
 								</div>
 							</div>
-							<div className="relative w-[180px] h-[152px] rounded-[30px] bg-gradient-to-t from-[#F09E001a] to-[#F09E0000]">
+							<div className="relative w-[180px] h-[152px] rounded-[30px] bg-gradient-to-t from-[#F09E001a] to-[#F09E0000] hover:scale-110 transition-transform">
 								<div className="absolute  xl:-right-4 xxl:right-0 -top-14 inset-x-0 flex justify-end">
 									<img src={Dessert} />
 								</div>
@@ -110,7 +110,7 @@ export default function Home() {
 									<p>Dessert</p>
 								</div>
 							</div>
-							<div className="relative w-[180px] h-[152px] rounded-[30px] bg-gradient-to-t from-[#8d93641a] to-[#8d936400]">
+							<div className="relative w-[180px] h-[152px] rounded-[30px] bg-gradient-to-t from-[#8d93641a] to-[#8d936400] hover:scale-110 transition-transform">
 								<div className="absolute  xl:-right-4 xxl:right-0 -top-14 inset-x-0 flex justify-end">
 									<img src={Lunch} />
 								</div>
@@ -118,7 +118,7 @@ export default function Home() {
 									<p>Lunch</p>
 								</div>
 							</div>
-							<div className="relative w-[180px] h-[152px] rounded-[30px] bg-gradient-to-t from-[#a24f4f1a] to-[#a24f4f00]">
+							<div className="relative w-[180px] h-[152px] rounded-[30px] bg-gradient-to-t from-[#a24f4f1a] to-[#a24f4f00] hover:scale-110 transition-transform">
 								<div className="absolute  xl:-right-4 xxl:right-0 -top-14 inset-x-0 flex justify-end">
 									<img src={Chocolate} />
 								</div>
@@ -146,7 +146,7 @@ export default function Home() {
 
 				<div className="mt-20 grid grid-cols-3 gap-10">
 					<Reveal>
-						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl">
+						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl hover:scale-105 transition-transform">
 							<div className="h-[250px] relative">
 								<img src={Heart} className="absolute top-5 right-5" />
 								<img src={DummyMenu} className="object-contain rounded-3xl" />
@@ -167,7 +167,7 @@ export default function Home() {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl">
+						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl hover:scale-105 transition-transform">
 							<div className="h-[250px] relative">
 								<img src={Heart} className="absolute top-5 right-5" />
 								<img src={DummyMenu2} className="object-contain rounded-3xl" />
@@ -188,7 +188,7 @@ export default function Home() {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl">
+						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl hover:scale-105 transition-transform">
 							<div className="h-[250px] relative">
 								<img src={Heart} className="absolute top-5 right-5" />
 								<img src={DummyMenu3} className="object-contain rounded-3xl" />
@@ -209,7 +209,7 @@ export default function Home() {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl">
+						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl hover:scale-105 transition-transform">
 							<div className="h-[250px] relative">
 								<img src={Heart} className="absolute top-5 right-5" />
 								<img src={DummyMenu4} className="object-contain rounded-3xl" />
@@ -230,7 +230,7 @@ export default function Home() {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl">
+						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl hover:scale-105 transition-transform">
 							<div className="h-[250px] relative">
 								<img src={Heart} className="absolute top-5 right-5" />
 								<img src={DummyMenu5} className="object-contain rounded-3xl" />
@@ -256,7 +256,7 @@ export default function Home() {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl">
+						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl hover:scale-105 transition-transform">
 							<div className="h-[250px] relative">
 								<img src={Heart} className="absolute top-5 right-5" />
 								<img src={DummyMenu6} className="object-contain rounded-3xl" />
@@ -277,7 +277,7 @@ export default function Home() {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl">
+						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl hover:scale-105 transition-transform">
 							<div className="h-[250px] relative">
 								<img src={Heart} className="absolute top-5 right-5" />
 								<img src={DummyMenu7} className="object-contain rounded-3xl" />
@@ -298,7 +298,7 @@ export default function Home() {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl">
+						<div className="bg-gradient-to-t from-[#E7F9FD] to-[#E7F9FD00] px-4 pb-4 rounded-3xl hover:scale-105 transition-transform">
 							<div className="h-[250px] relative">
 								<img src={Heart} className="absolute top-5 right-5" />
 								<img src={DummyMenu8} className="object-contain rounded-3xl" />
@@ -390,8 +390,8 @@ export default function Home() {
 
 				<div className="mt-20 grid grid-cols-4 gap-10">
 					<Reveal>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu9} className="object-fill h-[200px]" />
 							</div>
@@ -411,8 +411,8 @@ export default function Home() {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu10} className="object-fill h-[200px]" />
 							</div>
@@ -430,8 +430,8 @@ export default function Home() {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu11} className="object-fill h-[200px]" />
 							</div>
@@ -451,8 +451,8 @@ export default function Home() {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu12} className="object-fill h-[200px]" />
 							</div>
@@ -470,8 +470,8 @@ export default function Home() {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu13} className="object-fill h-[200px]" />
 							</div>
@@ -491,8 +491,8 @@ export default function Home() {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu14} className="object-fill h-[200px]" />
 							</div>
@@ -510,8 +510,8 @@ export default function Home() {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu15} className="object-fill h-[200px]" />
 							</div>
@@ -529,8 +529,8 @@ export default function Home() {
 						</div>
 					</Reveal>
 					<Reveal>
-						<div className="rounded-2xl overflow-hidden">
-							<div className="h-[200px] relative bg-red-200">
+						<div className="rounded-2xl overflow-hidden hover:scale-110 transition-transform">
+							<div className="h-[200px] relative">
 								<img src={Heart} className="absolute top-3 right-3 w-12 aspect-square" />
 								<img src={DummyMenu16} className="object-fill h-[200px]" />
 							</div>
